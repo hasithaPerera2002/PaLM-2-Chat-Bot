@@ -2,7 +2,27 @@
 
 ![image](https://github.com/hasithaPerera2002/PaLM-2-Chat-Bot/assets/68593358/aaceb2ba-8e59-490e-ac55-d8e3b4c67e4d)
 
+## Features
 
+Natural language understanding and generation
+Ability to converse on diverse subjects
+Responds to queries, engages in discussions, and provides information
+
+## Usage
+Prerequisites
+To use this chatbot, you'll need:
+
+# Install express , nodemon , bootstrap , dotenv
+
+# OpenAI's API key
+
+## Installation
+Clone this repository:
+
+bash
+Copy code
+git clone https://github.com/your-username/gpt3-chatbot.git
+cd gpt3-chatbot
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
