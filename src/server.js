@@ -13,6 +13,7 @@ app.use(express.json());
 app.use(cors());
 app.get('/api/prompt/:text', async (req, res) => {
   const message = req.params.text;
+  console.log(message)
   const payload = {
     prompt: {
       "messages": [{
@@ -33,6 +34,7 @@ app.get('/api/prompt/:text', async (req, res) => {
   );
 
   let newVar = await response.json();
+  console.log(newVar)
   res.send(newVar);
 
 })

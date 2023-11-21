@@ -99,6 +99,7 @@ li {
 
 .text {
   max-width: 60%;
+  min-width: 40%;
   border-radius: 15px;
 }
 

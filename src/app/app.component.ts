@@ -22,7 +22,8 @@ export class AppComponent {
     }
     this.chat.push(userMessage)
     this.inputVal = '';
-    const reply = await fetch(`https://localhost:3000/api/prompt/:${message}`).then(res => res.json());
+    const reply = await fetch(`http://localhost:3000/api/prompt/${message}`).then(res => res.json());
+    console.log(reply)
     let replyMessage: ChatData = {
       user: 'palm',
       message: await reply.candidates[0].content
