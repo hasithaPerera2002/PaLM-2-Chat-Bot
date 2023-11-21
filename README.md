@@ -12,9 +12,9 @@ Responds to queries, engages in discussions, and provides information
 Prerequisites
 To use this chatbot, you'll need:
 
-# Install express , nodemon , bootstrap , dotenv
+### Install express , nodemon , bootstrap , dotenv
 
-# OpenAI's API key
+### OpenAI's API key
 
 ## Installation
 Clone this repository:
