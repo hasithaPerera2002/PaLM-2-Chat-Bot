@@ -1,9 +1,11 @@
 {
   "name": "palm2",
   "version": "0.0.0",
+  "type": "module",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve",
+    "start:frontend": "ng serve",
+    "start:backend": "nodemon src/server.js",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test"
@@ -18,6 +20,11 @@
     "@angular/platform-browser": "^16.1.0",
     "@angular/platform-browser-dynamic": "^16.1.0",
     "@angular/router": "^16.1.0",
+    "bootstrap": "^5.3.2",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.2",
+    "font-awesome": "^4.7.0",
+    "nodemon": "^3.0.1",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.13.0"

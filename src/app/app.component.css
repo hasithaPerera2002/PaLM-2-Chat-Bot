@@ -1,0 +1,141 @@
+
+.container-fluid {
+  background-color: rgba(246, 231, 231, 0.48);
+  height: 100vh;
+
+}
+
+.hero-div {
+  border-radius: 10px;
+  margin: auto;
+  top: 2rem;
+  box-shadow: rgba(0, 0, 0, 0.57) 0px 0px 10px 0px;
+  background-color: rgba(249, 249, 255, 0.98);
+  height: 90vh;
+  width: 40%;
+  position: relative;
+  z-index: 5;
+}
+
+svg {
+  width: 100%;
+  z-index: 2;
+}
+
+path {
+  z-index: 2;
+  fill: rgb(174, 238, 203);
+  background: radial-gradient(circle, rgba(174, 238, 203, 1) 0%, rgba(204, 233, 148, 1) 100%);
+}
+
+.hero-title {
+  top: 2rem;
+  left: 1rem;
+  position: absolute;
+  font-size: 3rem;
+
+}
+
+.text-area {
+  top: 13rem;
+  position: relative;
+  min-height: 10vh;
+  max-height: 15vh;
+
+  margin: auto;
+  padding: 0;
+  display: flex;
+}
+
+input {
+  width: 80%;
+  margin-left: 1rem;
+  margin-top: 1rem;
+  height: 3rem;
+  border-radius: 10px;
+  border: 1px solid black;
+  padding-left: 1rem;
+  font-size: 1.1rem;
+  padding-right: 1rem;
+}
+
+button {
+  background: transparent;
+  width: 4rem;
+  margin-top: 1rem;
+  margin-left: 1rem;
+  height: 3rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+img {
+  height: 100%
+}
+
+.text-div {
+  z-index: 3;
+  overflow-y: scroll;
+  top: 26vh;
+  height: 50vh;
+  position: relative;
+}
+
+.header {
+  position: absolute;
+  z-index: 2;
+}
+
+
+li {
+
+  list-style: none;
+  margin-top: .5rem;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+
+.text {
+  max-width: 60%;
+  border-radius: 15px;
+}
+
+.user-text {
+  margin-right: 10px;
+  padding-right: 10px;
+  background: linear-gradient(90deg, rgba(229, 181, 255, 1) 21%, rgba(56, 112, 251, 0.8352591036414566) 100%, rgba(147, 144, 189, 1) 100%);
+  box-shadow: rgb(197, 136, 225) 0px 0px 10px 0px;
+}
+
+.user-name {
+  text-align: end;
+  padding-top: 10px;
+  padding-right: 10px;
+  font-weight: 600;
+}
+
+.user-msg {
+  text-align: end;
+  padding: 10px;
+}
+
+.palm-msg {
+  text-align: start;
+  padding: 10px;
+}
+
+.palm-name {
+  text-align: start;
+  padding-top: 10px;
+  padding-left: 10px;
+  font-weight: 600;
+}
+
+.palm-text {
+  margin-left: 10px;
+  padding-left: 10px;
+  background: linear-gradient(90deg, rgba(6, 222, 125, 1) 13%, rgba(181, 255, 243, 1) 100%, rgba(147, 144, 189, 1) 100%);
+  box-shadow: rgba(43, 147, 147, 0.79) 0px 0px 10px 0px;
+}
