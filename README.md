@@ -1,5 +1,9 @@
 # Palm2
 
+![image](https://github.com/hasithaPerera2002/PaLM-2-Chat-Bot/assets/68593358/aaceb2ba-8e59-490e-ac55-d8e3b4c67e4d)
+
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
 ## Development server
